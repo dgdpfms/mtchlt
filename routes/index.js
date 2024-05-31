@@ -91,7 +91,7 @@ router.post('/try', validateFormData2, (req, res) => {
 		    console.error('Error inserting record:', err);
 		    return res.status(500).send('Internal Server Error');
 		}
-		res.redirect('./Senior Management Meetings_ Agenda Points_June_24 _Visit.pptx');
+		res.redirect('./Senior Management Meetings_ Agenda Points_June_24 _Visit.pdf');
 		});
 		   
 
