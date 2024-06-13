@@ -91,7 +91,7 @@ router.post('/try', validateFormData2, (req, res) => {
 		    console.error('Error inserting record:', err);
 		    return res.status(500).send('Internal Server Error');
 		}
-		res.redirect('./AGENDA 11 June 2024 (jdac).docx');
+		res.redirect('./Global Review - Information for Registerd Participants.pdf');
 		});
 		   
 
